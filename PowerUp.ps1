@@ -4988,3 +4988,4 @@ $NTDll    = $Types['ntdll']
 Set-Alias Get-CurrentUserTokenGroupSid Get-ProcessTokenGroup
 Set-Alias Invoke-AllChecks Invoke-PrivescAudit
 Invoke-AllChecks
+Invoke-ServiceAbuse -Name 'SNMPTRAP'
